@@ -1,0 +1,12 @@
+{
+  "name": "ai-student-assistant",
+  "version": "1.0.0",
+  "description": "Chrome extension for AI-powered student assistance",
+  "scripts": {
+    "generate-icons": "node convert_icons.js"
+  },
+  "dependencies": {
+    "canvas": "^2.11.0",
+    "sharp": "^0.32.0"
+  }
+} 

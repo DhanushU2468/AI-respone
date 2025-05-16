@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Student Assistant Settings</title>
+    <style>
+        body {
+            width: 400px;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            padding: 8px 16px;
+            background: #4285f4;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #3367d6;
+        }
+        .status {
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        .success {
+            background: #d4edda;
+            color: #155724;
+        }
+        .error {
+            background: #f8d7da;
+            color: #721c24;
+        }
+    </style>
+</head>
+<body>
+    <h2>API Settings</h2>
+    <div class="form-group">
+        <label for="openai_key">OpenAI API Key:</label>
+        <input type="text" id="openai_key" placeholder="sk-...">
+    </div>
+    <div class="form-group">
+        <label for="google_key">Google Cloud API Key:</label>
+        <input type="text" id="google_key" placeholder="Enter your Google Cloud API key">
+    </div>
+    <button id="save">Save Settings</button>
+    <div id="status" class="status" style="display: none;"></div>
+    <script src="settings.js"></script>
+</body>
+</html> 
