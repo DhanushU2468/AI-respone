@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AI Student Assistant Chrome Extension
 
 A Chrome extension that helps students in online classes by automatically transcribing teacher questions and generating appropriate answers using AI.
@@ -65,3 +66,6 @@ A Chrome extension that helps students in online classes by automatically transc
 ## Support
 
 For issues or feature requests, please contact support at [your-email] 
+=======
+# AI-respone
+>>>>>>> 83c4b60460c9dd14b916cd4f47008ab83f4e02aa
